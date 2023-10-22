@@ -57,7 +57,7 @@ export async function handler(event, context) {
                     },
                     {
                         name: "What server was you banned in?",
-                        value: payload.appealText.slice(0, MAX_EMBED_FIELD_CHARS)
+                        value: payload.serverText.slice(0, MAX_EMBED_FIELD_CHARS)
                     },
                     {
                         name: "Why do you feel you should be unbanned?",
